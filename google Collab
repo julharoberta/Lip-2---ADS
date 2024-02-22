@@ -1,0 +1,164 @@
+Estruturas de dados em Python
+
+valor1 = 10
+valor2 = 20
+resultado = valor1 + valor2
+resultado2 = valor1 - valor2
+resultado3 = valor1 * valor2
+resultado4 = valor1 / valor2
+
+print("Valores calculados")
+print("Soma")
+print(resultado)
+print("Subtração")
+print(resultado2)
+print("Multiplicação")
+print(resultado3)
+print("Divisão")
+print(resultado4)
+
+-------------------------------------------------------------------------  1
+
+Segundo exemplo de manipulção de dados no python
+
+# Definição e inicialização das variáveis
+valor1 = 35.4
+valor2 = 90
+valor3 = "Julha"
+
+# Execução da lógica
+operacao = (valor1 + valor2)/2
+operacaoAlternativa = valor1 + valor2/2
+
+# operacaoDiferente = valor2 valor3
+
+# Apresentação dos resultados
+print(operacao)
+print(operacaoAlternativa)
+
+# print(operacaoDiferente)
+
+---------------------------------------------------------------------------  2
+
+Aplicação em condicionais em python
+
+Crie uma aplicação em Python que calcule a média de um aluno. A média é calculada com base em 4 avaliações, caso seja maior que 5, imprima palavra **Aprovado**
+
+# eu fiz
+
+
+# Aplicação para cálculo da média
+
+prova1 = float(input("Digite a nota do 1Bimestre: "))
+prova2 = float(input("Digite a nota do 2Bimestre: "))
+prova3 = float(input("Digite a nota do 3Bimestre: "))
+prova4 = float(input("Digite a nota do 4Bimestre: "))
+
+ # Execução da lógica
+media = (prova1 + prova2 + prova3 + prova4)/4
+
+# Apresentação dos resultados
+if media >= 5:
+  print("sua media foi:", media, "e voce foi aprovado!")
+else:
+  print("sua media foi:", media, "e voce foi reprovado")
+
+---------------------------------------------------------------------------  3
+
+# professor fez
+
+#Aplicaççao para cálculo da média
+
+# Criação e inicialização das variáveis
+avaliacaoTeorica = 0
+relatorios = 0
+avaliacaoPratica = 0
+apresentacaoDeSeminarios = 0
+mediasemestral = 0
+
+#execução da lógica
+mediaSemestral = (avaliacaoTeorica + relatorios + avaliacaoPratica + apresentacaoDeSeminarios)
+
+#Condicional SE
+
+if mediaSemestral >= 5:
+  print("Aprovado!")
+else:
+  print(("Reprovado!"))
+
+# Apresentacao dos resultados
+print("A média semstral é", mediaSemestral, ",")
+-----------------------------------------------------------------------------------------  4
+
+Uso de operadores lógicos-aritméticos adicionais.
+
+# Uso de símbolo % no Python
+
+valor1 = 5
+valor2 = 2
+
+resultadoDivisao = valor1 / valor2
+print(resultadoDivisao)
+
+resultadoComSimbolo = valor1 % valor2
+print(resultadoComSimbolo)
+
+
+--------------------------------------------------------------------------------------------  5
+
+valor1 = False
+valor2 = False
+
+# Uso do símbolo ^ no Python
+resultadoDoSimbolo = valor1^valor2
+print(resultadoDoSimbolo)
+
+# Uso do símbolo | (OU) no Python
+resultadoDoSimbolo = valor1 | valor2
+print(resultadoDoSimbolo)
+
+# Uso do símbolo & (OU Exclusiva) no Python
+resultadoDoSimbolo = valor1 & valor2
+print(resultadoDoSimbolo)
+
+--------------------------------------------------------------------------------------------  6
+
+Crie um código em Python que calcule a velocidade instantânea de um projétil sendo lançado em velocidade constante. Ultilize a equação v = e/t. Caso a velocidade seja maior que 10, avise o usuásrio que excedeu o limite.
+
+#Cálculo de velocidade de projétil
+
+#Criação e inicialização das variáveis
+velocidade = 0.0
+deslocamento = 0.0
+tempoDecorrido = 0.0
+
+deslocamento = float(input("Digite o  espaço percorrido: "))
+tempoDecorrido = float(input("Digite o tempo gasto: "))
+
+#Execução da lógica
+velocidade = deslocamento / tempoDecorrido
+if velocidade >= 10:
+  print("Velocidade excedeu os limites")
+#Apresentaçao dos valores
+
+print("A velocidade instantâne é:", velocidade, "m/s")
+
+----------------------------------------------------------------------------------------------  7
+
+
+Crie um código em Python identifique se o número digitado é positivo ou negativo. Além disso, identifique se o número é par ou ímpar.
+
+# Criado e inicializando a variável
+  valorDigitado = int(input("Digite um valor inteiro: "))
+
+# Execuçõa da lógica
+if (valorDigitado < 0:
+  print(valorDigitado,"é negativo")
+else:
+    print(valorDigitado, "é positivo")
+
+  if valorDigitado % 2 == 0:
+    print("O número", valorDigitado, "é par.")
+else:
+    print(valorDigitado, "é ímpar")
+
